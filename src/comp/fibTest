@@ -1,0 +1,12 @@
+ldaarg 1
+copyao 0
+sto 100
+sto 101
+lda 100
+ldb 101
+addab 0
+sto 101
+sto 254
+copybo 0
+sto 100
+goto 8
